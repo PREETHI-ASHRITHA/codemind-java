@@ -11,9 +11,9 @@ public class Fibonacci
         {
             int c;
             c=a+b;
-            System.out.printf(" %d",c);
             a=b;
             b=c;
+            System.out.printf(" %d",c);
         }
     }
 }
